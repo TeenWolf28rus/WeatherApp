@@ -1,0 +1,105 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Погода</string>
+
+    <string name="format_temperature_celsius">%d°C</string>
+    <string name="format_temperature_fahrenheit">%d°F</string>
+
+    <string name="error_message">Произошла ошибка. Повторите попытку, нажав обновить</string>
+
+    <string name="translate_day_Mon">Понедельник</string>
+    <string name="translate_day_Tue">Вторник</string>
+    <string name="translate_day_Wed">Среда</string>
+    <string name="translate_day_Thu">Четверг</string>
+    <string name="translate_day_Fri">Пятница</string>
+    <string name="translate_day_Sat">Суббота</string>
+    <string name="translate_day_Sun">Воскресенье</string>
+
+    <string name="day">"День: "</string>
+    <string name="temperature">"Температура: "</string>
+    <string name="weather">"Погода: "</string>
+
+    <string name="tornado">Торнадо</string>
+    <string name="tropical_storm">Тропический шторм</string>
+    <string name="hurricane">Ураган</string>
+    <string name="severe_thunderstorms">Сильная гроза</string>
+    <string name="thunderstorms">Гроза</string>
+    <string name="mixed_rain_and_snow">Дождь со снегом</string>
+    <string name="mixed_rain_and_sleet">Дождь и мокрый снег</string>
+    <string name="mixed_snow_and_sleet">Снег и мкорый снег</string>
+    <string name="freezing_drizzle">Морось</string>
+    <string name="drizzle">Мороз</string>
+    <string name="freezing_rain">Ледяной дождь</string>
+    <string name="showers">Обильные осадки</string>
+    <string name="snow_flurries">Снегопад</string>
+    <string name="light_snow_showers">Лёгкий снегопад</string>
+    <string name="blowing_snow">Дует снег</string>
+    <string name="snow">Снег</string>
+    <string name="hail">Град</string>
+    <string name="sleet">Мокрый снег</string>
+    <string name="dust">Пыль</string>
+    <string name="foggy">Туман</string>
+    <string name="haze">Мгла</string>
+    <string name="smoky">Дымчатый</string>
+    <string name="blustery">Ветренно</string>
+    <string name="cold">Холодно</string>
+    <string name="cloudy">Облачно</string>
+    <string name="clear">Ясно</string>
+    <string name="sunny">Солнечно</string>
+    <string name="mixed_rain_and_hail">Дождь с градом</string>
+    <string name="hot">Жарко</string>
+    <string name="isolated_thunderstorms">Отдельные грозы</string>
+    <string name="scattered_thunderstorms">Рассмеянные грозы</string>
+    <string name="scattered_showers">Ливень</string>
+    <string name="heavy_snow">Сильный снегопад</string>
+    <string name="partly_cloudy">Небольшая облачность</string>
+    <string name="thundershowers">Гром</string>
+    <string name="not_available">Не доступно</string>
+
+    <string name="numbers_days_text_switch_on">7 дней</string>
+    <string name="numbers_days_text_switch_off">3 дня</string>
+
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+
+    <string name="action_refresh">Обновить</string>
+    <string name="action_share">Передать</string>
+    <string name="action_map">Карта</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="pref_location_default">Blagoveshchensk, RU</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_label" translatable="false">Location</string>
+
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" >units</string>
+    <string name="pref_units_metric" >metric</string>
+    <string name="pref_units_imperial" >imperial</string>
+    <string name="format_wind_kmh">%d км/ч</string>
+    <string name="format_wind_mph">%d м/ч</string>
+    <string name="format_humidity">%d %%</string>
+    <string name="format_pressure">%d гПА</string>
+    <string name="format_direction">" направление: %s"</string>
+    <string name="format_notification">"
+        Прогноз:<xliff:g id="condition">%1$s</xliff:g> -
+        Максимум:<xliff:g id="high">%2$s</xliff:g>
+        Минимум:<xliff:g id="low">%3$s</xliff:g>"</string>
+    <string name="pref_last_notification">последнее</string>
+    <string name="pref_enable_notifications_key">включить_уведомления</string>
+    <string name="pref_enable_notifications_label">Оповещения о погоде</string>
+    <string name="pref_enable_notifications_true">Включено</string>
+    <string name="pref_enable_notifications_false">Не включено</string>
+    <string name="a11y_forecast">Прогноз: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Прогноз иконка: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">Макс: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Мин: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Влажность: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Биометрическое давление: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Скорость и направление ветра: <xliff:g id="wind">%1$s</xliff:g></string>
+    <string name="pressure_label">Давление</string>
+    <string name="humidity_label">Влажность</string>
+    <string name="wind_label">Ветер</string>
+
+
+</resources>
